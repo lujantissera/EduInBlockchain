@@ -1,7 +1,7 @@
 {
   "name": "lujaninblockchain",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Recuross** es una plataforma descentralizada para organizar y compartir recursos de forma transparente y segura. Aprovecha la tecnología blockchain para garantizar la autenticidad del contenido, controlar el acceso de forma descentralizada y recompensar a los usuarios mediante un sistema de incentivos tokenizados.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@chainlink/env-enc": "^1.0.5",
     "@nomicfoundation/hardhat-ethers": "^3.0.8",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.14.1",
     "ethers": "^6.13.5",
-    "hardhat": "^2.23.0"
+    "hardhat": "^2.23.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "type": "commonjs"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.3.0"
+    "@nomicfoundation/hardhat-viem": "^2.0.6",
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.5.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
